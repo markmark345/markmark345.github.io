@@ -45,7 +45,7 @@ const Navbar = (props) => {
             size="md"
             color={useColorModeValue("gray.800", "whiteAlpha.900")}
           >
-            Welcome
+            Portfolio
           </Heading>
         </Flex>
 

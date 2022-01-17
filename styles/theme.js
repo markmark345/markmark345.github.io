@@ -3,12 +3,12 @@ import { mode } from '@chakra-ui/theme-tools'
 
 const customTheme = extendTheme({
     styles: {
-        global: {
+        global: (props) => ({
             body: {
-                // bgGradient:'linear(to-r, #3a6186, #89253e)' 
-                bg: '#FFE459'
+                // bgGradient:'linear(to-r, #3a6186, #89253e)' FFE459
+                bg: mode('#FFE459', '#202023') (props)
             }
-        }
+        })
     }
  })
 
