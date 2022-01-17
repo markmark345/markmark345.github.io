@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar/Navbar'
 
 const Layout = ({ children, router }) => {
     return (
-        <Box as="main" pb={8}>
+        <Box as="main" pb={8} >
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <title>Natapatchara Anuroje</title>
