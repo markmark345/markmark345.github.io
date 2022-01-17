@@ -14,26 +14,25 @@ const Home = () => {
       >
         Hi, I&apos;m studying computer science
       </Box>
-      <Box >
+      <Box display={{ md: "flex" }}>
+        
+        <Box >
           <Image
             maxWidth="150px"
             borderColor="Black.800"
             borderWidth={5}
             borderStyle="solid"
-            // boxSize="250px"
             src="/profile/PoorinIMG1.jpg"
             borderRadius="full"
             alt="PoorinIMG"
           />
         </Box>
-      <Box display={{ md: "flex" }}>
-        <Box flexGrow={1}>
+        <Box flexGrow={1} ml={16}>
           <Heading as="h2" variant="page-title">
             Poorin 
           </Heading>
           <p>Student in Thammasat University</p>
         </Box>
-        
       </Box>
     </Container>
   );
