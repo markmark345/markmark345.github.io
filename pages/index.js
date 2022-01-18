@@ -19,7 +19,7 @@ const Home = () => {
         <Box >
           <Image
             maxWidth="150px"
-            borderColor="Black.800"
+            borderColor="whiteAlpha.800"
             borderWidth={5}
             borderStyle="solid"
             src="/profile/PoorinIMG1.jpg"
