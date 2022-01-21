@@ -43,7 +43,8 @@ const Home = (props) => {
           justifyContent={{ base: "center", md: "flex-start" }}
           alignItems="center"
         >
-          <Heading size="lg" as="h1">
+       
+          <Heading size="lg" as="h1" className="jumbotron-name-heading" bgColor="purple.700" bgClip="text" bgGradient='linear(to-l, #7928CA, #FF0080)'>
             Hi, I’m Poorin Thotong
           </Heading>
         </Stack>
