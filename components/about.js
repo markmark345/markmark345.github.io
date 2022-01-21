@@ -10,7 +10,6 @@ const About = () => {
             src='/profile/PoorinIMG1.jpg'
             borderRadius='full' 
             alt='PoorinIMG'/>
-
         </Box>
     )
 }

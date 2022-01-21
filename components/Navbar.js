@@ -14,7 +14,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
-import { IoLogoGithub } from "react-icons/io5";
+
 import LinkItem from "./LinkItem";
 
 const Navbar = (props) => {
@@ -22,7 +22,9 @@ const Navbar = (props) => {
 
   return (
     <Box
-      position="fixed"
+      position="sticky"
+      top={0}
+      mb={16}
       as="nav"
       w="100%"
       bg={useColorModeValue("#ffffff40", "#20202380")}
@@ -32,7 +34,7 @@ const Navbar = (props) => {
     >
       <Container
         display="flex"
-        p={2}
+        pl={-3}
         maxW="container.md"
         warp="warp"
         alignContent="end"
@@ -40,8 +42,8 @@ const Navbar = (props) => {
       >
         <Flex align="center" mr={6}>
           <Heading
-            ml="5"
-            as="h3"
+            as="h1" 
+            align-items= 'start'
             size="md"
             color={useColorModeValue("gray.800", "whiteAlpha.900")}
           >

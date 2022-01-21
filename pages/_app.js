@@ -1,8 +1,8 @@
 import { ChakraProvider } from "@chakra-ui/provider";
 import Layout from '../layouts/layout';
-import Theme from '../styles/theme'
+import Theme from '../styles/theme/theme'
 import Head from "next/head"
-import "../styles/input.css"
+
 
 const App = ({ Component, pageProps, router }) => {
     return (
