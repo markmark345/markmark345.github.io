@@ -25,7 +25,7 @@ const dayOfWeek = getDayOfWeek(
 );
 
 const Home = (props) => {
-  const { path } = props
+  const { path } = props;
   return (
     <Stack
       alignItems="center"
@@ -43,8 +43,14 @@ const Home = (props) => {
           justifyContent={{ base: "center", md: "flex-start" }}
           alignItems="center"
         >
-       
-          <Heading size="lg" as="h1" className="jumbotron-name-heading" bgColor="purple.700" bgClip="text" bgGradient='linear(to-l, #7928CA, #FF0080)'>
+          <Heading
+            size="lg"
+            as="h1"
+            bgColor="purple.700"
+            bgClip="text"
+            bgGradient="linear(to-l, #7928CA, #FF0080)"
+            className="jumbotron-name-heading"
+          >
             Hi, I’m Poorin Thotong
           </Heading>
         </Stack>
@@ -53,7 +59,7 @@ const Home = (props) => {
           computer especially Web & Application development, machine learning,
           and IT Security. I want to learn things to develop further
         </Text>
-        <Stack spacing={3} direction={{ base: 'column', md: 'row' }}>
+        <Stack spacing={3} direction={{ base: "column", md: "row" }}>
           <LinkItem
             _target="_blank"
             href="https://github.com/markmark345"
@@ -61,13 +67,13 @@ const Home = (props) => {
             display="inline-flex"
             alignItems="center"
             style={{ gap: 4 }}
-            sx={{p: 0}}
+            sx={{ p: 0 }}
           >
             <Button
-              variant='ghost'
-              target='_blank'
+              variant="ghost"
+              target="_blank"
               px={4}
-              justifyContent={{ base: 'flex-start', md: 'center' }}
+              justifyContent={{ base: "flex-start", md: "center" }}
               rightIcon={<Icon as={IoLogoGithub} />}
             >
               Github
@@ -80,13 +86,13 @@ const Home = (props) => {
             display="inline-flex"
             alignItems="center"
             style={{ gap: 4 }}
-            sx={{p: 0}}
+            sx={{ p: 0 }}
           >
             <Button
-              variant='ghost'
-              target='_blank'
+              variant="ghost"
+              target="_blank"
               px={4}
-              justifyContent={{ base: 'flex-start', md: 'center' }}
+              justifyContent={{ base: "flex-start", md: "center" }}
               rightIcon={<Icon as={IoLogoLinkedin} />}
             >
               linkedin
@@ -96,7 +102,11 @@ const Home = (props) => {
       </VStack>
       <Flex position="relative" pb={4} justifyContent="center">
         <AspectRatio flexShrink={0} ratio={1} w={56} h={56} as="figure">
-          <Box rounded="full" overflow="hidden" bgGradient='linear(to-l, #7928CA, #FF0080)'>
+          <Box
+            rounded="full"
+            overflow="hidden"
+            bgGradient="linear(to-l, #7928CA, #FF0080)"
+          >
             <Image
               maxWidth="95%"
               src="/profile/PoorinIMG1.jpg"
