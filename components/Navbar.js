@@ -17,12 +17,13 @@ import { HamburgerIcon } from "@chakra-ui/icons";
 
 import LinkItem from "./LinkItem";
 
-const Navbar = (props) => {
+const Navbar = props => {
   const { path } = props;
 
   return (
     <Box
       position="sticky"
+      p={2}
       top={0}
       mb={16}
       as="nav"
@@ -34,7 +35,6 @@ const Navbar = (props) => {
     >
       <Container
         display="flex"
-        pl={-3}
         maxW="container.md"
         warp="warp"
         alignContent="end"
@@ -59,7 +59,7 @@ const Navbar = (props) => {
           align="center"
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/about" path={path}>
+          <LinkItem href="/" path={path}>
             About
           </LinkItem>
           <LinkItem href="/projects" path={path}>

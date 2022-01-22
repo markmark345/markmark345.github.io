@@ -7,10 +7,10 @@ const LinkItem = ({ href, path, _target, children, ...props  }) => {
     return (
       <NextLink href={href} passHref>
         <Link
-          p={3}
+          p={2}
           bg={active ? "grassTeal" : undefined}
           color={active ? "#202023" : inactiveColor}
-          target='_blank'
+          _target='_target'
           {...props}
         >
           {children}

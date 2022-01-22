@@ -4,6 +4,7 @@ import { Box, Container, Flex, VStack } from "@chakra-ui/react";
 // import Container from './Container'
 
 import Navbar from "../components/Navbar";
+import Footer from "../components/footer";
 
 const Layout = ({ children, router }) => {
   return (
@@ -24,6 +25,7 @@ const Layout = ({ children, router }) => {
               <VStack spacing={16} flex={1} w='full' as='main'>
               {children}
               </VStack>
+              <Footer />
           </VStack>
       </Container>
     </>
