@@ -3,7 +3,7 @@ import { VStack, Heading, List, ListItem, Box } from "@chakra-ui/react";
 const Project = () => {
   return (
     <VStack w="full" alignItems="flex-start" spacing={4} as="section">
-      <Heading size="md">Projects</Heading>
+      <Heading size="lg">Projects</Heading>
       <List spacing={6}>
         <ListItem>
           <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
