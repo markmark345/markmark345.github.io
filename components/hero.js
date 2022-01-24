@@ -1,33 +1,33 @@
 import {
-    Container,
-    Button,
-    Icon,
-    Box,
-    Heading,
-    Image,
-    Text,
-    AspectRatio,
-    HStack,
-    Flex,
-    VStack,
-    Stack,
-  } from "@chakra-ui/react";
-  import { getDayOfWeek } from "../utils/getDayOfWeek";
-  import { IoLogoGithub } from "react-icons/io5";
-  import { IoLogoLinkedin } from "react-icons/io5";
-  import LinkItem from "../components/LinkItem";
-  
-  const now = new Date();
-  const dayOfWeek = getDayOfWeek(
-    now.getDate(),
-    now.getMonth(),
-    now.getFullYear()
-  );
+  Container,
+  Button,
+  Icon,
+  Box,
+  Heading,
+  Image,
+  Text,
+  AspectRatio,
+  HStack,
+  Flex,
+  VStack,
+  Stack,
+} from "@chakra-ui/react";
+import { getDayOfWeek } from "../utils/getDayOfWeek";
+import { IoLogoGithub } from "react-icons/io5";
+import { IoLogoLinkedin } from "react-icons/io5";
+import LinkItem from "../components/LinkItem";
+
+const now = new Date();
+const dayOfWeek = getDayOfWeek(
+  now.getDate(),
+  now.getMonth(),
+  now.getFullYear()
+);
 
 const Hero = (props) => {
-    const { path } = props;
-    return (
-<Stack
+  const { path } = props;
+  return (
+    <Stack
       alignItems="center"
       spacing={12}
       w="full"
@@ -117,7 +117,7 @@ const Hero = (props) => {
         </AspectRatio>
       </Flex>
     </Stack>
-    )
-}
+  );
+};
 
-export default Hero
+export default Hero;
