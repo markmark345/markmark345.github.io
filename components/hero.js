@@ -1,5 +1,4 @@
 import {
-  Container,
   Button,
   Icon,
   Box,
@@ -7,7 +6,6 @@ import {
   Image,
   Text,
   AspectRatio,
-  HStack,
   Flex,
   VStack,
   Stack,

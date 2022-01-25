@@ -1,11 +1,13 @@
 import {
   VStack,
+  Button,
   HStack,
   Stack,
   AspectRatio,
   Heading,
   Text,
   LinkBox,
+  Link,
   LinkOverlay,
   Icon,
   CircularProgress,
@@ -14,12 +16,13 @@ import {
   useColorModeValue as mode,
 } from "@chakra-ui/react";
 
+import LinkItem from "../LinkItem";
 import LinkCard from "../LinkCard";
 import { jsproject } from "../../data/jsprojects";
 
-const ProjectCard = ({ title, description }) => {
+const ProjectCard = ({ title, description, github }) => {
   return (
-    <LinkBox as="article">
+    <LinkBox  as="article" >
       <Stack
         direction={{ base: "colum", md: "row" }}
         p={6}
@@ -43,6 +46,11 @@ const ProjectCard = ({ title, description }) => {
               <Heading size="md" weight="semibold">
                 {title}
               </Heading>
+              <LinkOverlay as={LinkCard} href={github}>
+                <Text color="inherit" fontSize="sm">
+                  source
+                </Text>
+              </LinkOverlay>
             </Stack>
           </VStack>
           <Text fontSize="sm">{description}</Text>

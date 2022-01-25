@@ -6,7 +6,7 @@ const customTheme = extendTheme({
         global: (props) => ({
             body: {
                 // bgGradient:'linear(to-r, #3a6186, #89253e)' FFE459
-                bg: mode('#f2f2f2', '#202023') (props)
+                bg: mode('#FFFAFC', '#202023') (props)
             },
         }),
     },
