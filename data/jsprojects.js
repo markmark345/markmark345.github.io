@@ -22,7 +22,7 @@ export const jsproject = [
   },
   {
     title: "Google Scholar",
-    github: "https://github.com/markmark345/Coins-Ranking",
+    github: "https://github.com/markmark345/Google-Scholar",
     type:"Collect Information",
     description:
       "This project is about to collect information about research activity from Thammasat University.",

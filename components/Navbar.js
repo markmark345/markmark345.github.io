@@ -63,11 +63,10 @@ const Navbar = props => {
           <LinkItem href="/" path={path} color={useColorModeValue("gray.800", "whiteAlpha.900")}>
             About
           </LinkItem>
-          <LinkItem href="/projects/projects.js" path={path} color={useColorModeValue("gray.800", "whiteAlpha.900")}>
+          <LinkItem href="/#projectID" path={path} color={useColorModeValue("gray.800", "whiteAlpha.900")}>
             Projects
           </LinkItem>
         </Stack>
-
         <Box flex={1} align="right">
           <ThemeToggleButton/>
           <Box ml={2} display={{ base: "inline-block", md: "none" }}>
