@@ -60,14 +60,11 @@ const Navbar = props => {
           align="center"
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/" path={path}>
+          <LinkItem href="/" path={path} color={useColorModeValue("gray.800", "whiteAlpha.900")}>
             About
           </LinkItem>
-          <LinkItem href="/projects" path={path}>
+          <LinkItem href="/projects/projects.js" path={path} color={useColorModeValue("gray.800", "whiteAlpha.900")}>
             Projects
-          </LinkItem>
-          <LinkItem href="/education" path={path}>
-            Education
           </LinkItem>
         </Stack>
 
@@ -87,9 +84,6 @@ const Navbar = props => {
                 </NextLink>
                 <NextLink href="/projects" passHref>
                   <MenuItem as={Link}>Projects</MenuItem>
-                </NextLink>
-                <NextLink href="/education" passHref>
-                  <MenuItem as={Link}>Education</MenuItem>
                 </NextLink>
               </MenuList>
             </Menu>

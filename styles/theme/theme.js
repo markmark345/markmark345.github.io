@@ -1,40 +1,36 @@
-import { extendTheme, styled, withDefaultColorScheme  } from "@chakra-ui/react"
-import { mode } from '@chakra-ui/theme-tools'
+import { extendTheme, styled, withDefaultColorScheme } from "@chakra-ui/react";
+import { mode } from "@chakra-ui/theme-tools";
 
 const customTheme = {
-    styles: {
-        global: (props) => ({
-            body: {
-                // bgGradient:'linear(to-r, #3a6186, #89253e)' FFE459
-                bg: mode('#FFFAFC', '#202023') (props)
-            },
-        }),
-    },
-    mdx: {
-        h1: {
-          fontSize: '3xl',
-          letterSpacing: '1px',
-        },
-        h2: {
-          fontSize: 'xl',
-          letterSpacing: '0.8px',
-        },
-        h3: {
-          fontSize: 'md',
-          letterSpacing: '0.6px',
-        },
-        h4: {
-          fontSize: 'xs',
-          letterSpacing: '0.5px',
-        },
+  styles: {
+    global: (props) => ({
+      body: {
+        // bgGradient:'linear(to-r, #3a6186, #89253e)' FFE459
+        bg: mode("#FFFAFC", "#202023")(props),
       },
- }
+    }),
+  },
+};
 
- const config = {
-  initialColorMode: 'dark',
-  useSystemColorMode: true
-}
-   
-const theme = extendTheme({ config, customTheme })
-  export default theme
+const components = {
+  Heading: {
+    variants: {
+      "section-title": {
+        textDecoration: "underline",
+        textUnderlineOffset: 10,
+        textDecorationColor: "#525252",
+        textDecorationThickness: 2,
+        marginTop: 6,
+        marginBottom: 4,
+      },
+    },
+  },
+};
 
+const config = {
+  initialColorMode: "dark",
+  useSystemColorMode: true,
+};
+
+const theme = extendTheme({ config, customTheme, components });
+export default theme;

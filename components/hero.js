@@ -49,7 +49,7 @@ const Hero = (props) => {
             bgGradient="linear(to-l, #7928CA, #FF0080)"
             className="jumbotron-name-heading"
           >
-            Hi, I’m Poorin Thotong
+            Hi, I’m Natapatchara Anuroje
           </Heading>
         </Stack>
         <Text>
@@ -107,7 +107,7 @@ const Hero = (props) => {
           >
             <Image
               maxWidth="95%"
-              src="/profile/PoorinIMG1.jpg"
+              src="/profile/—Pngtree—little tiger yellow cartoon avatar_6991473.png"
               borderRadius="full"
               alt="PoorinIMG"
             />
