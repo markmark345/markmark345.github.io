@@ -8,11 +8,18 @@ import {
   } from '@chakra-ui/react';
   import { IoLogoGithub } from "react-icons/io5";
   
-  const LinkCard = ({ children, ...linkProps }) => {
+  const LinkExternal = ({ children, ...linkProps }) => {
     return (
       <span>
+        <Icon
+          as={IoLogoGithub}
+          
+          color={mode('gray.700', 'white')}
+          display='inline'
+        />
         <Link
           {...linkProps}
+          ml={2}
           color={mode('purple.500', 'purple.300')}
           display='inline-flex'
           alignItems='center'
@@ -21,14 +28,9 @@ import {
         >
           {children}
         </Link>
-        <Icon
-          as={IoLogoGithub}
-          ml={2}
-          color={mode('gray.700', 'white')}
-          display='inline'
-        />
+        
       </span>
     );
   };
   
-  export default LinkCard;
+  export default LinkExternal;
