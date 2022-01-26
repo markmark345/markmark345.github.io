@@ -27,10 +27,14 @@ const components = {
   },
 };
 
+const colors = {
+  texth1color: 'linear(to-l, #7928CA, #FF0080)'
+}
+
 const config = {
   initialColorMode: "dark",
   useSystemColorMode: true,
 };
 
-const theme = extendTheme({ config, customTheme, components });
+const theme = extendTheme({ config, customTheme, components, colors });
 export default theme;

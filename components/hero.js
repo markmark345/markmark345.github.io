@@ -10,6 +10,7 @@ import {
   VStack,
   Stack,
 } from "@chakra-ui/react";
+import { motion } from "framer-motion";
 import { getDayOfWeek } from "../utils/getDayOfWeek";
 import { IoLogoGithub } from "react-icons/io5";
 import { IoLogoLinkedin } from "react-icons/io5";
@@ -43,13 +44,20 @@ const Hero = (props) => {
         >
           <Heading
             size="lg"
-            as="h1"
+            // as="h1"
             bgColor="purple.700"
             bgClip="text"
             bgGradient="linear(to-l, #7928CA, #FF0080)"
             className="jumbotron-name-heading"
           >
-            Hi, I’m Natapatchara Anuroje
+            <motion.h1
+              animate={{
+                color: ['#7928CA', '#FF0080', '#7B1FA2'],
+              }}
+              transition={{ duration: 3, repeat: Infinity }}
+            >
+              Hi, I’m Natapatchara Anuroje
+            </motion.h1>
           </Heading>
         </Stack>
         <Text>
