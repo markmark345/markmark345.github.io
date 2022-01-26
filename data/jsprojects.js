@@ -16,7 +16,7 @@ export const jsproject = [
   {
     title: "Coins Ranking",
     github: "https://github.com/markmark345/Coins-Ranking",
-    type:"Web App",
+    type:"Mobile(Android)",
     description:
       "This project is about coins rangking top Cryptocurrencies for Android appication.",
   },

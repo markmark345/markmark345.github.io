@@ -16,6 +16,7 @@ import {
 import { HamburgerIcon } from "@chakra-ui/icons";
 
 import LinkItem from "./LinkItem";
+import ThemeToggleButton from "./theme-toogle";
 
 const Navbar = props => {
   const { path } = props;
@@ -71,6 +72,7 @@ const Navbar = props => {
         </Stack>
 
         <Box flex={1} align="right">
+          <ThemeToggleButton/>
           <Box ml={2} display={{ base: "inline-block", md: "none" }}>
             <Menu>
               <MenuButton

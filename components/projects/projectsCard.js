@@ -120,12 +120,10 @@ const ProjectCard = ({ title, description, github, tag }) => {
               </Text>
               <LinkOverlay as={LinkCard} href={github} align="right">
                 <Text color="inherit" fontSize="sm">
-                  source
+                  Source
                 </Text>
               </LinkOverlay>
-              <Tag size="sm" colorScheme={getTypeColor(tag)}>
-                {tag}
-              </Tag>
+
               <Box flex={1} align="right"></Box>
             </HStack>
 
@@ -133,6 +131,9 @@ const ProjectCard = ({ title, description, github, tag }) => {
               {description}
             </Text>
           </VStack>
+          <Tag size="sm" colorScheme={getTypeColor(tag)}>
+            {tag}
+          </Tag>
         </VStack>
       </HStack>
     </LinkBox>

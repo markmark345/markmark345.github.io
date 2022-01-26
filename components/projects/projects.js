@@ -5,7 +5,7 @@ import { jsproject } from "../../data/jsprojects";
 const Project = () => {
   return (
     <VStack w="full" alignItems="flex-start" spacing={4} as="section">
-      <Heading size="lg" mt={16} mb={6}>Projects</Heading>
+      <Heading size="lg" mt={16} mb={6} variant="section-title">Projects</Heading>
       <List spacing={6}>
         {jsproject.map((data, key) => (
           <ListItem key={key} github={data.github}>
