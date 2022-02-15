@@ -41,7 +41,7 @@ const ProjectCard = ({ title, description, github, tag }) => {
         rounded="lg"
         borderWidth="1px"
         borderColor={mode("neutral.400", "neutralD.400")}
-        w="full"
+        w="100%"
         textAlign="left"
         align="start"
         spacing={4}
@@ -82,13 +82,11 @@ const ProjectCard = ({ title, description, github, tag }) => {
               <Text fontWeight="bold" fontSize="md" noOfLines={2}>
                 {title}
               </Text>
-              <LinkOverlay as={LinkCard} href={github} align="right">
+              <LinkOverlay as={LinkCard} href={github} >
                 <Text color="inherit" fontSize="sm">
                   Source
                 </Text>
               </LinkOverlay>
-
-              <Box flex={1} align="right"></Box>
             </HStack>
 
             <Text fontSize="sm" color={mode("neutral.1000", "neutralD.1000")}>
