@@ -63,7 +63,7 @@ const Navbar = props => {
           <LinkItem href="/" path={path} color={useColorModeValue("gray.800", "whiteAlpha.900")}>
               About
           </LinkItem>
-          <LinkItem href="/#projectID" path={path} color={useColorModeValue("gray.800", "whiteAlpha.900")}>
+          <LinkItem href="/projects" path={path} color={useColorModeValue("gray.800", "whiteAlpha.900")}>
             Projects
           </LinkItem>
         </Stack>
