@@ -27,4 +27,11 @@ export const jsproject = [
     description:
       "This project is about to collect information about research activity from Thammasat University.",
   },
+  {
+    title: "CI/CD Web ISS Viewer",
+    github: "https://github.com/markmark345/CS-360-issviewer",
+    type:"CI/CD",
+    description:
+      "This project is about to Continuous Integration and Continuous Deployment Web ISS Viewer on AWS ec2",
+  },
 ];
