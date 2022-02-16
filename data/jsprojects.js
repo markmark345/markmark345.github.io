@@ -23,7 +23,7 @@ export const jsproject = [
   {
     title: "Google Scholar",
     github: "https://github.com/markmark345/Google-Scholar",
-    type:"Collect Information",
+    type:"Web Scraping",
     description:
       "This project is about to collect information about research activity from Thammasat University.",
   },
@@ -33,5 +33,12 @@ export const jsproject = [
     type:"CI/CD",
     description:
       "This project is about to Continuous Integration and Continuous Deployment Web ISS Viewer on AWS ec2",
+  },
+  {
+    title: "Tiny DNS",
+    github: "https://github.com/markmark345/CS-360-issviewer",
+    type:"Socket Programming",
+    description:
+      "This project Develop a server-side program consisting of Authentication Server, Authorize Server, and Data Server which interface with client-side programs provided by teaching assistants. Where the client contacted Authentication Server, Data Server using TCP Protocol (TCP) Authorize Server and Data Server communicate with each other using UDP Protocol (UDP).",
   },
 ];

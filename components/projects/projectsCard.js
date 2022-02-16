@@ -28,10 +28,12 @@ const ProjectCard = ({ title, description, github, tag }) => {
       return "teal";
     } else if (type === "Mobile(Android)") {
       return "blue";
-    } else if (type === "Collect Information") {
+    } else if (type === "Web Scraping") {
       return "orange";
     } else if (type === "CI/CD") {
       return "red";
+    } else if (type === "Socket Programming") {
+      return "green";
     }
   };
 
