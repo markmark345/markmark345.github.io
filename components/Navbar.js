@@ -36,7 +36,7 @@ const Navbar = props => {
     >
       <Container
         display="flex"
-        maxW="container.md"
+        maxW="container.lg"
         warp="warp"
         alignContent="end"
         justify="space-between"
@@ -66,6 +66,9 @@ const Navbar = props => {
           <LinkItem href="/projects" path={path} color={useColorModeValue("gray.800", "whiteAlpha.900")}>
             Projects
           </LinkItem>
+          <LinkItem href="/cv" path={path} color={useColorModeValue("gray.800", "whiteAlpha.900")}>
+            CV
+          </LinkItem>
         </Stack>
         <Box flex={1} align="right">
           <ThemeToggleButton/>
@@ -78,11 +81,14 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <NextLink href="/about" passHref>
+                <NextLink href="/" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
                 <NextLink href="/projects" passHref>
                   <MenuItem as={Link}>Projects</MenuItem>
+                </NextLink>
+                <NextLink href="/cv" passHref>
+                  <MenuItem as={Link}>CV</MenuItem>
                 </NextLink>
               </MenuList>
             </Menu>
