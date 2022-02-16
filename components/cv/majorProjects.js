@@ -38,10 +38,26 @@ const MajorProjects = () => {
                   <Text fontSize="md">
                     Project Mobil Application(Android) Coins Ranking:
                     <br />
-                    Coins Ranking system application in Android This Self-improvement project is
-                    about coins rangking top Cryptocurrencies for Android
-                    appication that was developed in Android studio using Java.
-                    My responsibility has Develop and Design the project.
+                    Coins Ranking system application in Android This
+                    Self-improvement project is about coins rangking top
+                    Cryptocurrencies for Android appication that was developed
+                    in Android studio using Java. My responsibility has Develop
+                    and Design the project.
+                  </Text>
+                </Td>
+              </Tr>
+              <Tr>
+                <Th>
+                  <Heading fontSize="md">December 2021</Heading>
+                </Th>
+                <Td>
+                  <Text fontSize="md">
+                    CI/CD Web ISS Viewer:
+                    <br />
+                    Class project for Selected Topics in Software Engineering
+                    (CS360). This project is about to Continuous Integration and
+                    Continuous Deployment Web ISS Viewer on AWS ec2 using Git
+                    workflows and docker
                   </Text>
                 </Td>
               </Tr>

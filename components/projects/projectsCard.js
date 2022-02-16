@@ -30,6 +30,8 @@ const ProjectCard = ({ title, description, github, tag }) => {
       return "blue";
     } else if (type === "Collect Information") {
       return "orange";
+    } else if (type === "CI/CD") {
+      return "red";
     }
   };
 
