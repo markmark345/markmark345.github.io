@@ -23,7 +23,7 @@ const Summary = () => {
           A junior student in the department of Computer science, faculty of
           Science and Technology, Thammasat University. Who is looking for a
           Co-operative internship opportunity to learn and grow experience and
-          abilities in Software Enginearing.
+          abilities in Software Engineering.
         </AccordionPanel>
       </AccordionItem>
     </>
