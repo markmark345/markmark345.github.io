@@ -6,10 +6,12 @@ import {
   HStack,
   Icon,
   Button,
-  Accordion
+  Accordion,
 } from "@chakra-ui/react";
 
 import { HiDocumentDownload } from "react-icons/hi";
+import LinkItem from "../components/LinkItem";
+// import CVFile from "../public/pdf/CV.pdf";
 import Summary from "../components/cv/summary";
 import Education from "../components/cv/eduaction";
 import ExActivities from "../components/cv/extracurricularActivities";
@@ -24,15 +26,22 @@ const CV = () => {
       <VStack w="100%" alignItems="flex-start" as="section" spacing={1}>
         <HStack spacing={4} mb={6}>
           <Heading size="lg">CV</Heading>
-          <Button
-            variant="ghost"
+          <a
+            href="/pdf/CV.pdf"
+            alt="alt text"
             target="_blank"
-            px={4}
-            justifyContent={{ base: "flex-start", md: "center" }}
-            leftIcon={<Icon as={HiDocumentDownload} w={6} h={6} />}
+            rel="noopener noreferrer"
           >
-            Download CV
-          </Button>
+            <Button
+              variant="ghost"
+              target="_blank"
+              px={4}
+              justifyContent={{ base: "flex-start", md: "center" }}
+              rightIcon={<Icon as={HiDocumentDownload} />}
+            >
+              Download CV
+            </Button>
+          </a>
         </HStack>
 
         <Text fontSize="2xl">Mr.Natapatchara Anuroje</Text>

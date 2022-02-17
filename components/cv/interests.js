@@ -22,7 +22,7 @@ const Interests = () => {
         <h2>
           <AccordionButton>
             <Box flex="1" textAlign="center">
-              Interests
+                INTERESTS
             </Box>
             <AccordionIcon />
           </AccordionButton>

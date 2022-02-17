@@ -39,8 +39,8 @@ const MajorProjects = () => {
                     Project Mobil Application(Android) Coins Ranking:
                     <br />
                     Coins Ranking system application in Android This
-                    Self-improvement project is about coins rangking top
-                    Cryptocurrencies for Android appication that was developed
+                    Self-improvement project is about coins ranking top
+                    Cryptocurrencies for Android application that was developed
                     in Android studio using Java. My responsibility has Develop
                     and Design the project.
                   </Text>
@@ -82,10 +82,10 @@ const MajorProjects = () => {
                 </Th>
                 <Td>
                   <Text fontSize="md">
-                    Hotel reservation web application for empolyee:
+                    Hotel reservation web application for employee:
                     <br />
                     Class project for Database System1 (CS251). Developed a web
-                    application for Hotel reservation using PHP, CSS, Java
+                    application for hotel reservation using PHP, CSS, Java
                     Script and MySQL for the final project of the Database
                     course.
                   </Text>
@@ -119,7 +119,7 @@ const MajorProjects = () => {
                     Google Scholar Web scraping:
                     <br />
                     Class project for Data Analytics Programming (DSI200). This
-                    project have To collect information about research activity
+                    project has To collect information about research activity
                     from Thammasat University and to practice the data
                     collection process including; finding, data scraping,
                     transformation and storing.
