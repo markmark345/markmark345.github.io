@@ -40,8 +40,8 @@ const Technologies = () => {
                 </Th>
                 <Td>
                   <Text>
-                    Python, C/C++, JavaScript, TypeScript, HTML, CSS, PHP, Java, golang
-                    SQL, shell scripts and NodeJS.
+                    Python, C/C++, JavaScript, TypeScript, HTML, CSS, PHP, Java,
+                    golang SQL, shell scripts and NodeJS.
                   </Text>
                 </Td>
               </Tr>
@@ -52,7 +52,7 @@ const Technologies = () => {
                 <Td>
                   <Text>
                     Next.js, ReactJS, Material-UI, Protractor(E2E), Bootstrap,
-                    Google firebase, TailwindCSS, Chakra-ui
+                    Google firebase, tailwind CSS, Chakra-UI
                   </Text>
                 </Td>
               </Tr>
