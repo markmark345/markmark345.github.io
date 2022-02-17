@@ -41,4 +41,11 @@ export const jsproject = [
     description:
       "This project Develop a server-side program consisting of Authentication Server, Authorize Server, and Data Server which interface with client-side programs provided by teaching assistants. Where the client contacted Authentication Server, Data Server using TCP Protocol (TCP) Authorize Server and Data Server communicate with each other using UDP Protocol (UDP).",
   },
+  {
+    title: "Sex ratio in ASEAN countries, 2011-2018",
+    github: "https://github.com/markmark345/CS245-project",
+    type:"Machine Learning",
+    description:
+      "This project Able to bring the data set to display statistical results in various formats such as various types of graphs, etc. Able to use the analyzed data for future reference Test the use of machine learning with real datasets for education.",
+  },
 ];
