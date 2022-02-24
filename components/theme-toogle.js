@@ -15,13 +15,13 @@ const ThemeToggleButton = () => {
           x: 0,
           opacity: 5,
           rotate: [0, 0, 360, 0, 0],
-          scale: [1, 1, 1, 1, 1],
+          scale: [0, 0.4, 0.6, 0.8, 1],
         }}
         exit={{
-          x: 20,
+          x: 0,
           opacity: 5,
           rotate: [0, 0, 0, 360, 0],
-          scale: [1, 0.8, 0.6, 0.4, 0.2],
+          scale: [1, 0.8, 0.6, 0.4, 0],
         }}
         transition={{ duration: 0.5 }}
       >
