@@ -17,7 +17,7 @@ const Project = () => {
       <Heading id="projectID" size="lg" mt={12} mb={4} variant="section-title">
         Projects
       </Heading>
-      <List spacing={6} w="90%">
+      {/* <List spacing={6} w="90%" >
         {jsproject
           .map((data, key) => (
             <ListItem key={key} github={data.github}>
@@ -30,7 +30,8 @@ const Project = () => {
             </ListItem>
           ))
           .slice(0, 2)}
-      </List>
+      </List> */}
+      <ProjectCard data={jsproject} len={2} />
       <Box>
         <LinkItem
           display="flex"
