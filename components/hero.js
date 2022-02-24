@@ -52,13 +52,19 @@ const Hero = (props) => {
           >
             <motion.h1
               animate={{
-                color: ['#7928CA', '#FF0080', '#7B1FA2'],
+                color: ["#7928CA", "#FF0080", "#7B1FA2"],
               }}
               transition={{ duration: 3, repeat: Infinity }}
             >
               Hi, I’m Natapatchara Anuroje
             </motion.h1>
           </Heading>
+          <motion.div
+            animate={{ rotate: 20 }}
+            transition={{ duration: 0.8, yoyo: Infinity,  }}
+          >
+            <Heading >👋</Heading>
+          </motion.div>
         </Stack>
         <Text>
           I'm studying computer science who interested in everything in a
@@ -110,7 +116,7 @@ const Hero = (props) => {
         <AspectRatio flexShrink={0} ratio={1} w={56} h={56} as="figure">
           <Box
             rounded="full"
-            w='90%'
+            w="90%"
             overflow="hidden"
             bgGradient="linear(to-l, #7928CA, #FF0080)"
           >
