@@ -6,6 +6,7 @@ import {
   HStack,
   Icon,
   Button,
+  Skeleton,
   Accordion,
 } from "@chakra-ui/react";
 
@@ -47,7 +48,12 @@ const CV = () => {
         <Text fontSize="2xl">Mr.Natapatchara Anuroje</Text>
         <HStack spacing={4} alignItems="center">
           <Box>
-            <Text fontSize="md">Tel: 083-776-7928</Text>
+          <HStack spacing={4} alignItems="center">
+            <Text fontSize="md">Tel: </Text>
+            <Skeleton height='15px'>
+              <Text fontSize="md">083-776-7928</Text>
+            </Skeleton>
+            </HStack>
           </Box>
           <Box>
             <Text fontSize="md">Email: natapatchara.anuroje@gmail.com</Text>
