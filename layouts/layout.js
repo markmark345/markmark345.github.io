@@ -1,19 +1,18 @@
 // eslint-disable-next-line no-unused-vars
 import Head from "next/head";
 import { Box, Container, Flex, VStack } from "@chakra-ui/react";
-// import Container from './Container'
-
 import Navbar from "../components/Navbar";
 import Footer from "../components/footer";
 
 const Layout = ({ children, router }) => {
   return (
     <>
+    {/* <BackgroundEffect /> */}
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Natapatchara Anuroje</title>
       </Head>
-      <Navbar path={router.asPath} />
+      {/* <Navbar path={router.asPath} /> */}
       <Container
         display="flex"
         maxW="container.md"
